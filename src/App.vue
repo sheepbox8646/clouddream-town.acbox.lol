@@ -56,6 +56,8 @@
     <br />
     <br />
     <br />
+    <br />
+    <br />
   </div>
 </template>
 
@@ -65,22 +67,15 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  scale: 4
+  scale: 4;
+  text-align: center;
+  left: 50%;
+  right: 0;
 }
 
 .logo:hover {
   filter: drop-shadow(0 0 2em #ffdd00);
 }
-
-.back {
-  background-image: url('./assets/background.png');
-  margin: 0;
-  background-size: 100%, 100%;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-}
-
 .guider {
   list-style-type: none;
   position: fixed;
@@ -90,5 +85,17 @@
   float: right;
   margin: 20px;
   height: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    scale: 1.6
+  }
+  .guider {
+    margin-left: 0
+  }
+  .guider li {
+    float: inline-start;
+  }
 }
 </style>

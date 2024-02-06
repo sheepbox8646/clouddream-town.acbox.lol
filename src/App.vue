@@ -27,10 +27,6 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <img src="./assets/logo.png" class="logo" alt="logo" /><br />
     <br />
     <br />

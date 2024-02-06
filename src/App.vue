@@ -34,7 +34,7 @@
     <br />
     <br />
     <br />
-    <img src="./assets/download-mark.png" style="scale: 0.5"/>
+    <!-- <img class="download" src="./assets/download-mark.png"/> -->
     <!-- <button><span style="color: black">PC端下载</span></button> -->
     <br />
     <br />
@@ -89,6 +89,10 @@
   height: 40px;
 }
 
+.download {
+  scale: 0.5
+}
+
 @media screen and (max-width: 500px) {
   .logo {
     scale: 1.6
@@ -98,6 +102,9 @@
   }
   .guider li {
     float: inline-start;
+  }
+  .download {
+    scale: 0.1
   }
 }
 </style>

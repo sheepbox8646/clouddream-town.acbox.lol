@@ -34,6 +34,8 @@
     <br />
     <br />
     <br />
+    <button style="background-color: blueviolet; margin: 20px">手机端下载</button>
+    <button style="background-color: white; margin: 20px"><span style="color: black">PC端下载</span></button>
     <br />
     <br />
     <br />
